@@ -24,7 +24,7 @@ namespace ProductCatalogApi.Data
                 context.CatalogBrands.AddRange(GetCatalogBrands());
                 context.SaveChanges();
             }
-            if (!context.CatalogBrands.Any())
+            if (!context.CatalogItems.Any())
             {
                 context.CatalogItems.AddRange(GetCatalogItems());
                 context.SaveChanges();
