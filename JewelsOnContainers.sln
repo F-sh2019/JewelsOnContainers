@@ -9,13 +9,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{93
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{16D7BADF-52E6-424D-A97D-947A45F02B65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{B2585218-A6F1-4792-94D0-FF846CEBC950}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2585218-A6F1-4792-94D0-FF846CEBC950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2585218-A6F1-4792-94D0-FF846CEBC950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2585218-A6F1-4792-94D0-FF846CEBC950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2585218-A6F1-4792-94D0-FF846CEBC950}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{939A4CC1-976A-4FD7-AADB-366B562FEBDE} = {E158FFC4-D694-4410-829B-BC903C0009CE}
 		{16D7BADF-52E6-424D-A97D-947A45F02B65} = {E158FFC4-D694-4410-829B-BC903C0009CE}
+		{B2585218-A6F1-4792-94D0-FF846CEBC950} = {939A4CC1-976A-4FD7-AADB-366B562FEBDE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB4F55F1-A661-467A-BDB4-E563CCEB5A26}
